@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SNACK ZONE</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Josefin+Sans:wght@400;600&family=Montserrat:wght@300;400;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="new.css">
+    <!-- Favicon -->
+    <link rel="icon" href="image/logo.jpg">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loader-content">
+            <img src="image/logo.jpg" alt="THE SNACK ZONE Logo" class="loader-logo">
+            <h2 class="loader-text">THE SNACK ZONE</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="home">
+        <!-- header selecion  -->
+         <header>
+            <div class="header-top">
+                <div class="container flex-row wrapper-header-top">
+                    <p><i class="fa-solid fa-location-dot"></i> Palani - Pollachi main road, Udumalaipettai, Tamil Nadu</p>
+                    <p class="header-phone">Call Now: <a href="tel:918124538070">+91 8124538070</a></p>
+                </div>
+            </div>
+            
+            <!---nav section-->
+            <div class="header-bottom">
+                <div class="container flex-row wrapper-header-bottom">
+                    <a href="#home" class="logo">
+                        <img src="image/logo.jpg" alt="THE SNACK ZONE">
+                        <span class="logo-text">The Snack Zone</span>
+                    </a>
+                    
+                    <!-- Mobile Hamburger Menu Button -->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <nav id="nav">
+                        <ul class="menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutus">About us</a></li>
+                            <li><a href="#services">Why Us</a></li>
+                            <li><a href="#offer">Offers</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#booking">Book Table</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+         </header>
+
+         <!--- banner section -->
+         <div class="wrapper-header-content flex-row" style="background-image: url('image/burger-background.jpg');">
+             <div class="container header-content">
+                <div>
+                    <h1>Quick, delicious, always with you</h1>
+                    <p>Experience the ultimate culinary journey with our handcrafted gourmet burgers and steaks. Fresh ingredients, cinematic atmosphere, and speed combined for your perfect dining experience.</p>
+                    <a href="#booking" class="btn">Book a table</a>
+                </div>
+             </div>
+        </div>
+
+        <!---About us section-->
+        <section class="ctb" id="aboutus">
+            <div class="container wrapper-aboutus flex-row">
+                <div class="aboutus-img">
+                    <img src="image/background.jpg" alt="About our kitchen">
+                    <div class="experiense">
+                        <span>12</span>
+                        <p>years <br>experience</p>
+                    </div>
+                </div>
+                <div class="aboutus-content">
+                    <span class="subtitle">Few Words about us</span>
+                    <h4>About Us</h4>
+                    <p>We started as a small local kitchen with a simple mission: serving delicious, fresh, and high-quality burgers that leave a lasting impression. Over the past 12 years, we've perfected our recipes and expanded our services while staying true to our craftsmanship.</p>
+                    <p>Every single ingredient is carefully sourced from trusted local farmers. Our chefs bring passion, art, and years of experience to ensure every meal is a masterpiece. Dine with us and taste the difference.</p>
+                </div>
+            </div>
+        </section>
+
+        <!---service section -->
+        <section id="services" class="ptb-100">
+            <div class="container services-header">
+                <h2>Why Choose Us</h2>
+                <p class="subtitle">We prioritize quality, freshness, and customer satisfaction above all else.</p>
+            </div>
+            <div class="container wrapper-services">
+                <div class="single-service">
+                    <div class="service-icon-wrapper">
+                        <img src="image/bg-img-1.jpg" alt="Fast delivery icon">
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Hot and fresh meals delivered straight to your doorstep in record time.</p>
+                </div>
+                <div class="single-service">
+                    <div class="service-icon-wrapper">
+                        <img src="image/bg-img-2.jpg" alt="Quality Food icon">
+                    </div>
+                    <h3>Quality Food</h3>
+                    <p>Prepared with the finest, freshest, and organically sourced ingredients.</p>
+                </div>
+                <div class="single-service">
+                    <div class="service-icon-wrapper">
+                        <img src="image/bg-img-3.jpg" alt="First class dining icon">
+                    </div>
+                    <h3>First Class Dining</h3>
+                    <p>Immerse yourself in our cinematic, cozy, and high-end restaurant ambiance.</p>
+                </div>
+                <div class="single-service">
+                    <div class="service-icon-wrapper">
+                        <img src="image/bg-img-4.jpg" alt="Experienced chefs icon">
+                    </div>
+                    <h3>Experienced Chefs</h3>
+                    <p>Our dishes are designed and executed by master culinary professionals.</p>
+                </div>
+                <div class="single-service">
+                    <div class="service-icon-wrapper">
+                        <img src="image/bg-img-5.jpg" alt="Homemade food icon">
+                    </div>
+                    <h3>Homemade Taste</h3>
+                    <p>Authentic, rich recipes crafted with love to give you that comforting home taste.</p>
+                </div>
+            </div>
+        </section>
+
+       <!---offer section-->
+       <section id="offer" class="ptb-100">
+        <div class="container wrapper-offer flex-row">
+            <div class="offer-content">
+                <span class="subtitle">Our Special Offers</span>
+                <h2>Double Burger <br> 30% Off Every Saturday</h2>
+                <p>Kickstart your weekend with our signature double-stacked beef burger loaded with melting cheddar cheese, fresh lettuce, and our secret homemade sauce.</p>
+                <p>Don't miss out on this exclusive Saturday deal. Book your table now or order online to grab this delicious deal before the day ends!</p>
+                <a href="#booking" class="btn">Book A Table</a>
+            </div>
+
+            <div class="offer-img">
+                <div class="image-collage">
+                    <img src="image/01.jpeg" alt="Gourmet Burger Promo" class="collage-img img-1">
+                    <img src="image/222.jpg" alt="Crispy Fries Promo" class="collage-img img-2">
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!--menu section--> 
+       <section id="menu" class="ptb-100" style="background-image: url('image/02.png'), url('image/leaf_img.png');">
+        <div class="container wrapper-title-menu">
+            <h2>Our Menu</h2>
+            <ul class="link-menu">
+                <li><a href="#menu" class="active">Burgers</a></li>
+                <li><a href="#menu">Pizza</a></li>
+                <li><a href="#menu">Steaks</a></li>
+                <li><a href="#menu">Pasta</a></li>
+                <li><a href="#menu">Salads</a></li>
+                <li><a href="#menu">Drinks</a></li>
+            </ul>
+        </div>
+        <div class="container wrapper-content-menu">
+            <div class="menu-grid">
+                <article class="single-product">
+                    <div class="product-img-wrapper">
+                        <img src="image/burger-at-price.jpg" alt="Double Mac Burger">
+                        <div class="overlay-price">
+                            <span class="price-product">$12.50</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Double Mac Burger</h3>
+                        <p>Two flame-grilled beef patties, cheddar cheese, pickles, lettuce, onions, and signature burger sauce.</p>
+                    </div>
+                </article>
+                <article class="single-product">
+                    <div class="product-img-wrapper">
+                        <img src="image/burger-price-2.jpg" alt="Bacon Cheese Burger">
+                        <div class="overlay-price">
+                            <span class="price-product">$14.00</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Crispy Bacon Burger</h3>
+                        <p>Juicy patty topped with crispy applewood smoked bacon, melted Swiss cheese, and BBQ glaze.</p>
+                    </div>
+                </article>
+                <article class="single-product">
+                    <div class="product-img-wrapper">
+                        <img src="image/burger-3.jpg" alt="Spicy Zinger Burger">
+                        <div class="overlay-price">
+                            <span class="price-product">$11.99</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Spicy Firehouse Burger</h3>
+                        <p>Crispy spicy chicken breast, jalapeños, pepper jack cheese, and chipotle mayo on a toasted brioche bun.</p>
+                    </div>
+                </article>
+                <article class="single-product">
+                    <div class="product-img-wrapper">
+                        <img src="image/burger-4.jpg" alt="Veggie Mushroom Burger">
+                        <div class="overlay-price">
+                            <span class="price-product">$13.50</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Truffle Mushroom Burger</h3>
+                        <p>Grilled patty, sautéed wild mushrooms, caramelized onions, Swiss cheese, and white truffle aioli.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+       </section>
+
+       <!---footer section-->
+       <footer id="booking">
+        <div class="wrapper-booking-contact flex-row container">
+            <div class="booking-content">
+                <span class="subtitle">Reservations</span>
+                <h2>Book A Table</h2>
+                <form action="#" id="reservationForm">
+                    <div class="wrapper-input">
+                        <input type="text" name="name" placeholder="First Name" required>
+                        <input type="text" name="lastname" placeholder="Last Name" required>
+                    </div>
+                    <div class="wrapper-input">
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                    </div>
+                    <div class="wrapper-input">
+                        <input type="date" name="date" required>
+                        <input type="time" name="time" required>
+                    </div>
+                    <button class="btn" id="sendbook" type="submit">Book A Table</button>
+                    <p class="res-booking"></p>
+                </form>
+            </div>
+
+            <div class="contact-content" id="contact">
+                <span class="subtitle">Address & Contact</span>
+                <h2>Contact Us</h2>
+                <div class="single-contact">
+                    <h3>Address</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>Palani - Pollachi mani road , Udumalaipettai , Tamil Nadu</p>
+                </div>
+                <div class="single-contact">
+                    <h3>Phone</h3>
+                    <p><i class="fa-solid fa-phone"></i> +91 8124538070</p>
+                </div>
+                <div class="single-contact">
+                    <h3>Email</h3>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:jagatheessubramanian@gmail.com">jagatheessubramanian@gmail.com</a></p>
+                </div>
+                <div class="single-contact logo-contact">
+                    <a href="#home">
+                        <img src="image/logo.jpg" alt="THE SNACK ZONE logo footer">
+                    </a>
+                </div>
+            </div>
+        </div>
+       </footer>
+
+       <!-- Copyright Section -->
+       <div class="wrapper-copyright">
+            <p>Copyright &copy; 2026 THE SNACK ZONE. All Rights Reserved.</p>
+       </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
